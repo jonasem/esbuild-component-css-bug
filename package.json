@@ -1,0 +1,18 @@
+{
+  "name": "esbuild-component-css-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx esbuild --bundle index.ts",
+    "postinstall": "node postinstall.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.19.2",
+    "react": "^18.2.0"
+  }
+}

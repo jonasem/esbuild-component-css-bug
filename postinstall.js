@@ -1,0 +1,1 @@
+require('fs').cpSync('./foo', './node_modules/foo', { recursive: true })
