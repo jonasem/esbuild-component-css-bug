@@ -1,4 +1,4 @@
 
 import { x } from "foo";
 
-console.log(x)
+console.log(x);
